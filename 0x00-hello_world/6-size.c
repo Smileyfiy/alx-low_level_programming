@@ -1,18 +1,15 @@
-#include <stdio.h>
-
+#include<stdio.h>
 /**
- * main-mf
- *
- * Return:0 always returned
- */
-
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	printf("Size of char:%lu byte(s)",size of (char));
-	printf("Size of int:%lu byte(s)",size of (int));
-	printf("Size of long int:%lu Byte(s)",size of (long int));
-	printf("Size of long long int:%lu byte(s)",size of (long long int));
-	printf("Size of float:%lu byte(s)",size of (float));	
+	printf("Size of a char: %d byte(s)\n", sizeof(char));
+	printf("Size of an int: %d byte(s)\n", sizeof(int));
+	printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %d byte(s)\n", sizeof(float));
 	return (0);
-
 }
